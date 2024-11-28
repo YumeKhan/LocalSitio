@@ -1,0 +1,4 @@
+CDM
+CD - LOCAL DO ARQUIVO
+PYTHON UPLOAD.PY (Escolha o arquivo PDF que desejas)
+PYTHON LOCALRAG.PY

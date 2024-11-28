@@ -1,0 +1,363 @@
+# dados_locacoes.py
+
+locacoes = [
+    # Minas Gerais - Nova Lima
+
+    {
+        "tipo": "Casa",
+        "cidade": "Nova Lima",
+        "estado": "MG",
+        "caracteristicas": ["piscina", "quadra de vôlei", "churrasqueira"],
+        "valor": 2500.00,
+        "dias": 7
+    },
+    {
+        "tipo": "Sítio",
+        "cidade": "Nova Lima",
+        "estado": "MG",
+        "caracteristicas": ["campo de futebol", "churrasqueira"],
+        "valor": 2000.00,
+        "dias": 5
+    },
+    {
+        "tipo": "Fazenda",
+        "cidade": "Nova Lima",
+        "estado": "MG",
+        "caracteristicas": ["lago", "salão de festas"],
+        "valor": 4000.00,
+        "dias": 10
+    },
+    {
+        "tipo": "Clube",
+        "cidade": "Nova Lima",
+        "estado": "MG",
+        "caracteristicas": ["piscina", "quadra de vôlei"],
+        "valor": 1500.00,
+        "dias": 6
+    },
+    {
+        "tipo": "Casa",
+        "cidade": "Nova Lima",
+        "estado": "MG",
+        "caracteristicas": ["piscina", "quadra de vôlei", "churrasqueira"],
+        "valor": 2500.00,
+        "dias": 7
+    },
+    {
+        "tipo": "Sítio",
+        "cidade": "Nova Lima",
+        "estado": "MG",
+        "caracteristicas": ["campo de futebol", "churrasqueira"],
+        "valor": 2000.00,
+        "dias": 5
+    },
+    {
+        "tipo": "Fazenda",
+        "cidade": "Nova Lima",
+        "estado": "MG",
+        "caracteristicas": ["lago", "salão de festas"],
+        "valor": 4000.00,
+        "dias": 10
+    },
+    {
+        "tipo": "Clube",
+        "cidade": "Nova Lima",
+        "estado": "MG",
+        "caracteristicas": ["piscina", "quadra de vôlei"],
+        "valor": 1500.00,
+        "dias": 6
+    },
+    {
+        "tipo": "Casa",
+        "cidade": "Nova Lima",
+        "estado": "MG",
+        "caracteristicas": ["piscina", "área de lazer"],
+        "valor": 2000.00,
+        "dias": 8
+    },
+    {
+        "tipo": "Sítio",
+        "cidade": "Nova Lima",
+        "estado": "MG",
+        "caracteristicas": ["campo de futebol", "churrasqueira"],
+        "valor": 2700.00,
+        "dias": 10
+    },
+    
+
+    # Belo Horizonte, MG
+
+     {
+        "tipo": "Casa",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "caracteristicas": ["piscina", "churrasqueira"],
+        "valor": 1500.00,
+        "dias": 7
+    },
+    {
+        "tipo": "Sítio",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "caracteristicas": ["quadra de vôlei", "campo de futebol"],
+        "valor": 2200.00,
+        "dias": 5
+    },
+    {
+        "tipo": "Fazenda",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "caracteristicas": ["lago", "salão de festas"],
+        "valor": 3500.00,
+        "dias": 10
+    },
+    {
+        "tipo": "Clube",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "caracteristicas": ["piscina", "quadra de tênis"],
+        "valor": 1200.00,
+        "dias": 6
+    },
+    {
+        "tipo": "Casa",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "caracteristicas": ["piscina", "churrasqueira"],
+        "valor": 1500.00,
+        "dias": 7
+    },
+    {
+        "tipo": "Sítio",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "caracteristicas": ["quadra de vôlei", "campo de futebol"],
+        "valor": 2200.00,
+        "dias": 5
+    },
+    {
+        "tipo": "Fazenda",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "caracteristicas": ["lago", "salão de festas"],
+        "valor": 3500.00,
+        "dias": 10
+    },
+    {
+        "tipo": "Clube",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "caracteristicas": ["piscina", "quadra de tênis"],
+        "valor": 1200.00,
+        "dias": 6
+    },
+
+    # São Paulo - São Paulo
+    {
+        "tipo": "Casa",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "caracteristicas": ["piscina", "churrasqueira"],
+        "valor": 2500.00,
+        "dias": 7
+    },
+    {
+        "tipo": "Sítio",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "caracteristicas": ["campo de futebol", "quadra de vôlei"],
+        "valor": 3500.00,
+        "dias": 10
+    },
+    {
+        "tipo": "Fazenda",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "caracteristicas": ["lago", "salão de festas"],
+        "valor": 5000.00,
+        "dias": 12
+    },
+    {
+        "tipo": "Clube",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "caracteristicas": ["piscina", "quadra de tênis"],
+        "valor": 1800.00,
+        "dias": 6
+    },
+
+    # Rio de Janeiro - Rio de Janeiro
+    {
+        "tipo": "Casa",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "caracteristicas": ["piscina", "churrasqueira"],
+        "valor": 2200.00,
+        "dias": 8
+    },
+    {
+        "tipo": "Sítio",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "caracteristicas": ["campo de futebol", "quadra de vôlei"],
+        "valor": 2800.00,
+        "dias": 9
+    },
+    {
+        "tipo": "Fazenda",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "caracteristicas": ["lago", "salão de festas"],
+        "valor": 5500.00,
+        "dias": 10
+    },
+    {
+        "tipo": "Clube",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "caracteristicas": ["piscina", "quadra de tênis"],
+        "valor": 1200.00,
+        "dias": 5
+    },
+
+    # Outros estados - Curitiba, PR
+    {
+        "tipo": "Casa",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "caracteristicas": ["piscina", "churrasqueira"],
+        "valor": 1700.00,
+        "dias": 6
+    },
+    {
+        "tipo": "Sítio",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "caracteristicas": ["campo de futebol", "quadra de vôlei"],
+        "valor": 2400.00,
+        "dias": 7
+    },
+    {
+        "tipo": "Fazenda",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "caracteristicas": ["lago", "salão de festas"],
+        "valor": 5500.00,
+        "dias": 10
+    },
+    {
+        "tipo": "Clube",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "caracteristicas": ["piscina", "quadra de tênis"],
+        "valor": 1200.00,
+        "dias": 4
+    },
+
+    # São Bernardo do Campo, SP
+    {
+        "tipo": "Casa",
+        "cidade": "São Bernardo do Campo",
+        "estado": "SP",
+        "caracteristicas": ["piscina", "churrasqueira"],
+        "valor": 3000.00,
+        "dias": 7
+    },
+    {
+        "tipo": "Sítio",
+        "cidade": "São Bernardo do Campo",
+        "estado": "SP",
+        "caracteristicas": ["campo de futebol", "quadra de vôlei"],
+        "valor": 3500.00,
+        "dias": 8
+    },
+    {
+        "tipo": "Fazenda",
+        "cidade": "São Bernardo do Campo",
+        "estado": "SP",
+        "caracteristicas": ["lago", "salão de festas"],
+        "valor": 6000.00,
+        "dias": 12
+    },
+    {
+        "tipo": "Clube",
+        "cidade": "São Bernardo do Campo",
+        "estado": "SP",
+        "caracteristicas": ["piscina", "quadra de tênis"],
+        "valor": 1500.00,
+        "dias": 6
+    },
+
+    # Campinas, SP
+    {
+        "tipo": "Casa",
+        "cidade": "Campinas",
+        "estado": "SP",
+        "caracteristicas": ["piscina", "churrasqueira"],
+        "valor": 2800.00,
+        "dias": 7
+    },
+    {
+        "tipo": "Sítio",
+        "cidade": "Campinas",
+        "estado": "SP",
+        "caracteristicas": ["campo de futebol", "quadra de vôlei"],
+        "valor": 3300.00,
+        "dias": 9
+    },
+    {
+        "tipo": "Fazenda",
+        "cidade": "Campinas",
+        "estado": "SP",
+        "caracteristicas": ["lago", "salão de festas"],
+        "valor": 4500.00,
+        "dias": 10
+    },
+    {
+        "tipo": "Clube",
+        "cidade": "Campinas",
+        "estado": "SP",
+        "caracteristicas": ["piscina", "quadra de tênis"],
+        "valor": 1400.00,
+        "dias": 6
+    },
+    
+
+    # Niterói, RJ
+    {
+        "tipo": "Casa",
+        "cidade": "Niterói",
+        "estado": "RJ",
+        "caracteristicas": ["piscina", "churrasqueira"],
+        "valor": 2000.00,
+        "dias": 8
+    },
+    {
+        "tipo": "Sítio",
+        "cidade": "Niterói",
+        "estado": "RJ",
+        "caracteristicas": ["campo de futebol", "salão de festas"],
+        "valor": 2700.00,
+        "dias": 9
+    },
+    {
+        "tipo": "Fazenda",
+        "cidade": "Niterói",
+        "estado": "RJ",
+        "caracteristicas": ["lago", "quadra de vôlei"],
+        "valor": 5000.00,
+        "dias": 10
+    },
+    {
+        "tipo": "Clube",
+        "cidade": "Niterói",
+        "estado": "RJ",
+        "caracteristicas": ["piscina", "quadra de futebol"],
+        "valor": 1300.00,
+        "dias": 5
+    },
+
+    # Montando as próximas 50 locações
+    # [continua...]
+
+]  # Continue para 100 locações ou conforme necessário.
